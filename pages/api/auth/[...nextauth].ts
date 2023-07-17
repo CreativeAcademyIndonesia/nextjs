@@ -16,7 +16,7 @@ export const authOptions: NextAuthOptions = {
         };
         // perform you login logic
         // find out user from db
-        if (username !== "john@gmail.com" || password !== "1234") {
+        if (username !== "admin" || password !== "1234") {
           throw new Error("invalid credentials");
         }
 
